@@ -14,6 +14,7 @@ struct FullPlayerView: View {
                 Color.black
                 VideoPlayer(player: player)
             }
+            .ignoresSafeArea()
         } else {
             Spacer()
         }
