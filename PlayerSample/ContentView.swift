@@ -32,6 +32,12 @@ struct ContentView: View {
                     }
                 }
                 Section("UIKit") {
+                    NavigationLink(destination: EmbeddedAVPlayerView()) {
+                        HStack {
+                            Text("Embedded AVPlayer")
+                            Spacer()
+                        }
+                    }
                 }
             }
         }

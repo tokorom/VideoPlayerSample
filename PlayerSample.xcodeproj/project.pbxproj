@@ -15,6 +15,7 @@
 		F30A629A28DC34E30072E196 /* HalfPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A629828DC34E30072E196 /* HalfPlayerView.swift */; };
 		F30A629C28DC35280072E196 /* FullPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A629B28DC35280072E196 /* FullPlayerView.swift */; };
 		F30A629E28DC36740072E196 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A629D28DC36740072E196 /* Video.swift */; };
+		F30A62A028DC3E890072E196 /* EmbeddedAVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A629F28DC3E890072E196 /* EmbeddedAVPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F30A629828DC34E30072E196 /* HalfPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfPlayerView.swift; sourceTree = "<group>"; };
 		F30A629B28DC35280072E196 /* FullPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullPlayerView.swift; sourceTree = "<group>"; };
 		F30A629D28DC36740072E196 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		F30A629F28DC3E890072E196 /* EmbeddedAVPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedAVPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				F30A629B28DC35280072E196 /* FullPlayerView.swift */,
 				F30A629828DC34E30072E196 /* HalfPlayerView.swift */,
 				F30A629728DC34E30072E196 /* SmallPlayerView.swift */,
+				F30A629F28DC3E890072E196 /* EmbeddedAVPlayerView.swift */,
 				F30A628D28DC33400072E196 /* Assets.xcassets */,
 				F30A628F28DC33400072E196 /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 			files = (
 				F30A629928DC34E30072E196 /* SmallPlayerView.swift in Sources */,
 				F30A629E28DC36740072E196 /* Video.swift in Sources */,
+				F30A62A028DC3E890072E196 /* EmbeddedAVPlayerView.swift in Sources */,
 				F30A628C28DC333F0072E196 /* ContentView.swift in Sources */,
 				F30A629C28DC35280072E196 /* FullPlayerView.swift in Sources */,
 				F30A629A28DC34E30072E196 /* HalfPlayerView.swift in Sources */,
