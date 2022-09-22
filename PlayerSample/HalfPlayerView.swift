@@ -4,11 +4,26 @@
 //  Created by ToKoRo on 2022-09-22.
 //
 
+import AVKit
 import SwiftUI
 
 struct HalfPlayerView: View {
     var body: some View {
-        Text("Hello HalfPlayerView")
+        GeometryReader { container in
+            VStack {
+                if let player = Video.player {
+                    ZStack {
+                        Color.black
+                        VideoPlayer(player: player)
+                    }
+                        .frame(height: container.size.height / 2)
+                    Spacer()
+                        .frame(height: container.size.height / 2)
+                } else {
+                    Spacer()
+                }
+            }
+        }
     }
 }
 
