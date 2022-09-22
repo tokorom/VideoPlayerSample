@@ -9,13 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            List {
+                Section("SwiftUI") {
+                    NavigationLink(destination: FullPlayerView()) {
+                        HStack {
+                            Text("Full")
+                            Spacer()
+                        }
+                    }
+                    NavigationLink(destination: HalfPlayerView()) {
+                        HStack {
+                            Text("1/2")
+                            Spacer()
+                        }
+                    }
+                    NavigationLink(destination: SmallPlayerView()) {
+                        HStack {
+                            Text("Small")
+                            Spacer()
+                        }
+                    }
+                }
+                Section("UIKit") {
+                }
+            }
         }
-        .padding()
     }
 }
 
